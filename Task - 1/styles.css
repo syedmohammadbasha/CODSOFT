@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f78aa0;
+}
+
+header {
+    background-color: #568edc;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+.rounded-image {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%;
+  }
+  
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    background-color: #bcbcbc;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(245, 246, 248, 0.927);
+}
+
+#about img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#skills .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill {
+    width: 200px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.progress {
+    height: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.html {
+    width: 90%;
+    background-color: #ff5733;
+}
+
+.css {
+    width: 80%;
+    background-color: #33b5ff;
+}
+
+.js {
+    width: 70%;
+    background-color: #ff33ff;
+}
+.py {
+    width: 70%;
+    background-color: #4133ff;
+}
+.c {
+    width: 70%;
+    background-color: #33ffb8;
+}
+
+#projects .project {
+    margin: 2rem 0;
+    display: inline-block;
+    width: 200px;
+}
+
+#projects img {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 0.5rem;
+}
+
+#projects p {
+    font-size: 0.9rem;
+}
+
+.resume-box {
+    background-color: #83fdff;
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 2px solid #68dded;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#contact {
+    display: inline-block;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    background-color: #f8f2f2;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0b0b0b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+footer .social-media {
+    margin-bottom: 1rem;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    color: #ccc;
+}
